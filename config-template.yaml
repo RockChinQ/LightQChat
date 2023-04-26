@@ -1,0 +1,11 @@
+source:
+  adapter:
+    type: cai
+    account: 1234567890
+    pwd: abc123456
+    protocol: ANDROID_PAD
+content:
+  adapter:
+    type: revChatGPT
+    access-token: eyxxxxxxxxxxxxxxx
+    

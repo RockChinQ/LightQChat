@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append(".")
+
 from pkg.utils.config import Config
 from pkg.controller import Controller
 

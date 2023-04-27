@@ -3,3 +3,6 @@
 bot/
 config.yaml
 __pycache__
+*.spec
+dist
+build

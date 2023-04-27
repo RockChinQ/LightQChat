@@ -4,6 +4,11 @@
 
 - 基于[wyapx/CAI](https://github.com/wyapx/CAI)连接QQ，无需配置mirai/go-cqhttp等框架的连接
 
+## 功能点
+
+- 无需额外使用mirai/go-cqhttp等框架，直接使用QQ号登录
+- 支持通过QQ与ChatGPT网页版文字对话
+
 ## 部署
 
 ### 要求
@@ -40,3 +45,9 @@ python main.py
 ## 使用
 
 直接跟机器人说话就行了
+
+## 关于..
+
+- 这是一个关于CAI框架、YAML配置文件、异步编程的概念验证项目
+- 需要更多更丰富的功能可以查看[QChatGPT](https://github.com/RockChinQ/QChatGPT)
+- 有任何问题请提issue

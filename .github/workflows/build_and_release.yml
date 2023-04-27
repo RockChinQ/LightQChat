@@ -48,4 +48,4 @@ jobs:
         tag_name: ${{ github.ref }}
         body: ${{ github.event.head_commit.message }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

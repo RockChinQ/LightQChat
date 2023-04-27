@@ -1,7 +1,7 @@
 import requests
 import logging
 
-version_str = "lqv0.0.1"
+version_str = "lqv0.0.0"
 
 def report(count: int):
     try:

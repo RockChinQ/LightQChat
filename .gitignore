@@ -2,3 +2,4 @@
 .venv
 bot/
 config.yaml
+__pycache__

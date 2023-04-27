@@ -14,7 +14,8 @@ class RevChatGPTAdapter(ContentGeneratorAdapter):
     conversation_id = None
     def __init__(self, **kwargs):
         rev_cfg = Config().cfg['content']['adapter']
-        del rev_cfg['type']
+        if 'type' in rev_cfg:
+            del rev_cfg['type']
         self.chatbot = AsyncChatbot(
             config=rev_cfg
         )

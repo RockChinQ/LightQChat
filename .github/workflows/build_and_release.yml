@@ -38,7 +38,7 @@ jobs:
       run: pip install pyinstaller
 
     - name: Build executable for Linux
-      run: pyinstaller --onefile --name lightqchat --add-data "static:static" main.py
+      run: pyinstaller --onefile --name lightqchat main.py
 
     - name: Tag and release
       uses: softprops/action-gh-release@v1

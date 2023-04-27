@@ -12,6 +12,18 @@
 
 ## 部署
 
+以下方式二选一
+
+<details>
+<summary>Release文件下载</summary>
+
+请直接到[Release](https://github.com/RockChinQ/LightQChat/releases/latest)下载符合您系统的可执行文件，在终端运行，生成`config.yaml`然后按照之后步骤进行
+</details>
+
+<details>
+<summary>源码部署</summary>
+
+
 ### 要求
 
 - Python 3.9+
@@ -37,6 +49,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+</details>
 
 ### 配置
 

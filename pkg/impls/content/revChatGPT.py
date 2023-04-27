@@ -1,6 +1,7 @@
 from revChatGPT.V1 import AsyncChatbot
 from ...models.content.adapter import ContentGeneratorAdapter
 
+from ...utils.report import report
 from ...utils.config import Config
 from ...models.content.elements import Element, TextElement
 
@@ -32,6 +33,7 @@ class RevChatGPTAdapter(ContentGeneratorAdapter):
             res = resp
             logging.debug(res)
         self.conversation_id = res['conversation_id']
+        report(len(res['message']))
         return [
             TextElement(
                 text=res['message']

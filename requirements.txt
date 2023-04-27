@@ -1,3 +1,4 @@
 git+https://github.com/wyapx/CAI
 revChatGPT
 PyYaml
+requests
